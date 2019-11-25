@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import StarRating from './StarRating';
+import '../stylesheets/Color.scss';
 
 const Color = ({
   title,
