@@ -10,6 +10,8 @@ class App extends Component {
       colors: []
     };
     this.addColor = this.addColor.bind(this);
+    this.rateColor = this.rateColor.bind(this);
+    this.removeColor = this.removeColor.bind(this);
   }
 
   addColor(title, color) {
@@ -45,7 +47,7 @@ class App extends Component {
     }));
   }
 
-  redner() {
+  render() {
     const { addColor, rateColor, removeColor } = this;
     const { colors } = this.state;
     return (
