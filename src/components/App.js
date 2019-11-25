@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { v4 } from 'uuid';
 import AddColorForm from './AddColorForm';
 import ColorList from './ColorList';
+import '../stylesheets/APP.scss';
 
 class App extends Component {
   constructor(props) {
